@@ -4,6 +4,7 @@ import Proj1 from "../assets/project1.jpg";
 import Proj2 from "../assets/project2.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Project() {
   useEffect(() => {
