@@ -1,0 +1,88 @@
+[
+  {
+    "JSD": [
+      {
+        "id": 1,
+        "desc": "Attending developer meetings"
+      },
+      {
+        "id": 2,
+        "desc": "Participating in code reviews and quality assurance activities"
+      },
+      {
+        "id": 3,
+        "desc": "Develop web page for a backoffice website"
+      },
+      {
+        "id": 4,
+        "desc": "Continously improving coding skills by internal trainings"
+      },
+      {
+        "id": 5,
+        "desc": "Self-paced online training"
+      }
+    ],
+
+    "GA": [
+      {
+        "id": 1,
+        "desc": "Study design briefs and determine requirements "
+      },
+      {
+        "id": 2,
+        "desc": "Logo, Web Design, T-Shirt, Mug Designs, Birthday Invitation, Wedding Invitation, Posters, Brochures and other related graphics design"
+      },
+      {
+        "id": 3,
+        "desc": "Develop illustrations, logos and other designs using software or by hand"
+      },
+      {
+        "id": 4,
+        "desc": "Cleaning and maintaining printer"
+      },
+      {
+        "id": 5,
+        "desc": "Test graphics across various media"
+      },
+      {
+        "id": 6,
+        "desc": "Ensure final graphics and layouts are visually appealing and on-brand"
+      },
+      {
+        "id": 7,
+        "desc": "Printing tarpaulins, stickers, t-shirt, mug, documents, large formats etc."
+      }
+    ],
+
+    "FREE": [
+      {
+        "id": 1,
+        "desc": "Restore latest website to the old website "
+      },
+      {
+        "id": 2,
+        "desc": "Archive the latest website and create a new one"
+      },
+      {
+        "id": 3,
+        "desc": "Develop new pages for the website that the client designed"
+      },
+      {
+        "id": 4,
+        "desc": "Directing or performing website updates"
+      },
+      {
+        "id": 5,
+        "desc": "Back up files from Web sites to google drive for recovery"
+      },
+      {
+        "id": 6,
+        "desc": "Create detailed instructions to upload/remove image for the client"
+      },
+      {
+        "id": 7,
+        "desc": "Install SSL certificate in Wordpress and cPanel"
+      }
+    ]
+  }
+]

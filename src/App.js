@@ -1,23 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import NavBar from "./content/navbar";
+import RightBar from "./content/right-bar";
+import Intro from "./content/intro";
+import About from "./content/about";
+import Work from "./content/work";
+import Project from "./content/project";
+import Other from "./content/other";
+import Contact from "./content/contact";
+import Footer from "./content/footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+import Headroom from "react-headroom";
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 800, once: true });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Headroom>
+        <NavBar />
+      </Headroom>
+      <RightBar />
+      <div>
+        <main className="pr-[150px] pl-[150px]">
+          <Intro />
+          <div data-aos="slide-up">
+            <About />
+          </div>
+          <div data-aos="slide-up">
+            <Work />
+          </div>
+          <div data-aos="slide-up">
+            <Project />
+          </div>
+          <div data-aos="slide-up">
+            <Other />
+          </div>
+          <div data-aos="slide-up">
+            <Contact />
+          </div>
+          <div data-aos="slide-up">
+            <Footer />
+          </div>
+        </main>
+      </div>
     </div>
   );
 }
