@@ -65,7 +65,8 @@ function NavBar() {
             className="animate-fadeDown hover:-translate-y-1 hover:-translate-x-1  transition ease-in-out delay-100 duration-200"
           >
             <a
-              href="#"
+              href="Avernold Emocling.pdf"
+              download="Avernold Emocling.pdf"
               className="transition ease-in-out delay-100 duration-400 hover:shadow-[4px_4px_0_0px] hover:shadow-[--green] text-[--green] p-2 border-[1px] rounded font-mono bg-zinc-900 border-[--green] ml-6 pl-4 pr-4"
             >
               Resume
