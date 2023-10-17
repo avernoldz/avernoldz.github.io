@@ -39,9 +39,7 @@ function App() {
           <div data-aos="slide-up">
             <Contact />
           </div>
-          <div data-aos="slide-up">
-            <Footer />
-          </div>
+          <Footer />
         </main>
       </div>
     </div>
