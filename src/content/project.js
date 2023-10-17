@@ -12,38 +12,39 @@ function Project() {
 
   return (
     <section className="m-auto max-w-[1000px] py-[6rem]" id="work">
-      <Title number="03." info="Some projects I've contributed in" />
-      <div className="text-right flex relative mt-[10%]">
-        <div className="relative cursor-pointer hover:before:delay-100 hover:before:duration-100 before:content-[''] before:block before:w-[100%] before:h-[100%] before:absolute before:bg-[--green] before:opacity-30 before:z-[3] before:rounded-md hover:before:hidden">
-          <a href="https://gungamers.com" target="_blank">
-            <img
-              src={Proj1}
-              alt="image"
-              className="rounded-md w-[720px] h-[440px]"
-            />
-          </a>
-        </div>
-        <div className="absolute z-30 w-[55%] right-0 top-20">
-          <p className="font-mono text-[--green] text-base mb-2">
-            Featured Project
-          </p>
-          <h3 className="font-semibold text-white/90 text-2xl">
-            Gungamers Portfolio
-          </h3>
-          <div className="bg-[#121212] rounded-md py-6 px-7 mb-5 mt-5">
-            <p className="text-white/50">
-              A website portfolio that showcases the work of professional
-              individuals in the gun industry, developed using WordPress.
-            </p>
+      <div data-aos="slide-up">
+        <Title number="03." info="Some projects I've contributed in" />
+        <div className="text-right flex relative mt-[10%]">
+          <div className="relative cursor-pointer hover:before:delay-100 hover:before:duration-100 before:content-[''] before:block before:w-[100%] before:h-[100%] before:absolute before:bg-[--green] before:opacity-30 before:z-[3] before:rounded-md hover:before:hidden">
+            <a href="https://gungamers.com" target="_blank">
+              <img
+                src={Proj1}
+                alt="image"
+                className="rounded-md w-[720px] h-[440px]"
+              />
+            </a>
           </div>
-          <ul className="flex gap-5 text-[--green] font-mono float-right mr-5">
-            <li>WordPress</li>
-            <li>CSS</li>
-            <li>HTML</li>
-          </ul>
+          <div className="absolute z-30 w-[55%] right-0 top-20">
+            <p className="font-mono text-[--green] text-base mb-2">
+              Featured Project
+            </p>
+            <h3 className="font-semibold text-white/90 text-2xl">
+              Gungamers Portfolio
+            </h3>
+            <div className="bg-[#121212] rounded-md py-6 px-7 mb-5 mt-5">
+              <p className="text-white/50">
+                A website portfolio that showcases the work of professional
+                individuals in the gun industry, developed using WordPress.
+              </p>
+            </div>
+            <ul className="flex gap-5 text-[--green] font-mono float-right mr-5">
+              <li>WordPress</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
+          </div>
         </div>
       </div>
-
       <div
         className="text-white/50 mt-[6.5rem] w-[80%] m-auto bg-[#121212] rounded-md p-5"
         data-aos="slide-up"
