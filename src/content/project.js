@@ -2,8 +2,14 @@ import React from "react";
 import { Title } from "../components/components";
 import Proj1 from "../assets/project1.jpg";
 import Proj2 from "../assets/project2.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Project() {
+  useEffect(() => {
+    Aos.init({ duration: 800, once: true });
+  }, []);
+
   return (
     <section className="m-auto max-w-[1000px] py-[6rem]" id="work">
       <Title number="03." info="Some projects I've contributed in" />
@@ -37,7 +43,11 @@ function Project() {
           </ul>
         </div>
       </div>
-      <div className="text-white/50 mt-[6.5rem] w-[80%] m-auto bg-[#121212] rounded-md p-5">
+
+      <div
+        className="text-white/50 mt-[6.5rem] w-[80%] m-auto bg-[#121212] rounded-md p-5"
+        data-aos="slide-up"
+      >
         <img
           width="40"
           height="40"
@@ -61,7 +71,10 @@ function Project() {
         </a>
       </div>
 
-      <div className="flex flex-row-reverse relative mt-[10%] ">
+      <div
+        className="flex flex-row-reverse relative mt-[10%] "
+        data-aos="slide-up"
+      >
         <div className="absolute z-30 w-[55%] left-0 top-20">
           <p className="font-mono text-[--green] text-base mb-2">
             Featured Project
