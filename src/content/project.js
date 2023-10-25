@@ -86,10 +86,10 @@ function Project() {
           </h3>
           <div className="bg-[#121212] rounded-md py-6 px-7 mb-5 mt-5">
             <p className="text-white/50">
-              I developed web pages that is designed in Figma using ReactJs with
-              the help of our senior developer overseeing our work. Also
-              contributed in consolidating the Response Header and some minor
-              fixes in the login session time.
+              With the help of our senior developer who is in charge of
+              supervising our work, I created web pages that were designed in
+              Figma using ReactJs. Additionally, we made some minor improvements
+              to the login session time and the Response Header consolidation.
             </p>
           </div>
           <ul className="flex gap-5 text-[--green] font-mono ml-5">

@@ -12,10 +12,10 @@ function Contact() {
       <div className="text-center mt-7 max-w-[70%] m-auto">
         <h2 className="text-white/90 text-5xl font-semibold">Get in Touch</h2>
         <p className=" mt-5">
-          I'm currently looking for any new opportunities, my inbox is always
-          open. Available for select freelance opportunities, have an exciting
-          project you need help with? Send me an email or contact me via instant
-          message!
+          My inbox is always open and I'm looking for any new opportunities.
+          Have a fascinating project you need assistance with, and are available
+          for specific freelance opportunities? You can email me or message me
+          right away!
         </p>
 
         <div className="hover:-translate-y-1 hover:-translate-x-1  transition ease-in-out delay-100 duration-150 mt-20 max-w-[30%] m-auto">
@@ -23,7 +23,7 @@ function Contact() {
             href="mailto:averemocling@gmail.com"
             className="transition ease-in-out delay-100 duration-400 hover:shadow-[4px_4px_0_0px] hover:shadow-[--green] text-[--green] py-4 px-8 border-[1px] rounded font-mono bg-zinc-900 border-[--green] text-lg "
           >
-            Say Hello
+            Say Hello!
           </a>
         </div>
       </div>

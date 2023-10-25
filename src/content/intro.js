@@ -27,9 +27,9 @@ function Intro() {
         style={{ animationDuration: "2100ms" }}
       >
         <p className="text-white/50 text-[17px]  ">
-          I am a frontend developer with a 1 year experience, will help you to
-          bring your UI designs up and runnning in the Web. Currently, I'm
-          working as a freelance and open for work.{" "}
+          I am a front-end developer with one year of experience who can assist
+          you in launching your UI designs on the Web. I'm looking for work
+          right now and working freelance. <br />
           <a
             href="mailto:averemocling@gmail.com"
             target="_blank"

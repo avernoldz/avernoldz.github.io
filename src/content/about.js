@@ -11,11 +11,10 @@ function About() {
           <div className="text-white/50 ">
             <p className="mb-[20px]">
               Hi! My name is <span className="text-[--green]">Avernold</span>{" "}
-              and I'm very passionate about designing and coding. As a previous
-              Graphic Designer I thought that, why don't I combine this 2? The
-              best place where I can use my skills is as a Web Developer. I
-              really enjoy playing with HTML & CSS as well as designing some UI
-              for the web!
+              and I love designing and programming very much. I reasoned, why
+              not combine these two? I can use my skills most effectively as a
+              web developer. Playing with HTML & CSS and creating some UI for
+              the web are two things I really enjoy doing!
             </p>
             <p className="mb-[20px]">
               I've had the privilege working at{" "}
@@ -34,10 +33,11 @@ function About() {
               >
                 a startup web base solutions.{" "}
               </a>
-              I know I'm still lacking in experience but I can say that I'm not
-              lacking in skills. These days my main focus are expanding my
-              knowledge about frameworks such as ReactJS, Wordpress and my
-              network in freelancing while I'm not yet working.
+              Although I still lack experience, I can confidently say that I
+              have the necessary skills. While I'm still looking for work, my
+              current priorities are growing my network in the freelancing
+              industry and learning more about frameworks like ReactJS,
+              Bootstrap, Tailwind CSS and jQuery.
             </p>
             <p className="mb-[20px]">
               Here are the technologies I've been using:

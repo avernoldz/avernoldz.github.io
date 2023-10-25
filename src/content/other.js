@@ -27,8 +27,15 @@ function Other() {
                   E-commerce Video Games
                 </h2>
                 <p className=" mt-3">
-                  Epic games inspired website that we created during our
-                  Bootcamp.
+                  Website we developed during our Bootcamp that was inspired by
+                  the{" "}
+                  <a
+                    href="https://store.epicgames.com/en-US/"
+                    target="_blank"
+                    className="text-[--green]"
+                  >
+                    Epic Games.
+                  </a>
                 </p>
               </div>
               <div className="mt-3">
@@ -61,9 +68,9 @@ function Other() {
                   Web-Based School BMI Report
                 </h2>
                 <p className=" mt-3">
-                  Automatically submits reports of the all the students BMI to
-                  the Regional Branch and the Admin can see the submitted
-                  reports of all the school in Nueva Ecija.
+                  Automatically submits reports of each student's BMI to the
+                  regional branch, and the administrator can view all of the
+                  schools in Nueva Ecija that have submitted reports.
                 </p>
               </div>
               <div className="mt-3">
