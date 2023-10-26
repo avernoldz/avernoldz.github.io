@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import NavBar from "./content/navbar";
+import NavMob from "./content/navbar-mobile";
 import RightBar from "./content/right-bar";
 import Intro from "./content/intro";
 import About from "./content/about";
@@ -20,11 +21,12 @@ function App() {
   return (
     <div>
       <Headroom>
-        <NavBar />
+        <NavBar className="max-[767px]:hidden" />
+        <NavMob className="hidden max-[767px]:block" />
       </Headroom>
       <RightBar />
       <div>
-        <main className="pr-[150px] pl-[150px]">
+        <main className="xl:px-[150px] md:px-[120px] px-8">
           <Intro />
           <div data-aos="slide-up">
             <About />

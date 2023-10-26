@@ -6,7 +6,7 @@ function About() {
   return (
     <section className="m-auto max-w-[900px] py-[6rem] mb-[4rem]" id="about">
       <Title number="01." info="About me" />
-      <div className="grid grid-cols-[3fr,2fr] gap-[50px]">
+      <div className="grid grid-cols-[3fr,2fr] gap-[50px] max-[767px]:grid-cols-none max-[767px]:text-[15px]">
         <div>
           <div className="text-white/50 ">
             <p className="mb-[20px]">
@@ -42,7 +42,7 @@ function About() {
             <p className="mb-[20px]">
               Here are the technologies I've been using:
             </p>
-            <ul className="grid grid-cols-2 font-mono text-sm">
+            <ul className="grid grid-cols-2 font-mono text-sm max-[767px]:text-xs">
               <Tech techno="JavaScript" />
               <Tech techno="React" />
               <Tech techno="HTML5" />
@@ -56,7 +56,7 @@ function About() {
         </div>
         <div>
           <div
-            className=" after:duration-100 hover:after:translate-y-[4px] hover:after:translate-x-[4px]
+            className="max-w-fit m-auto after:duration-100 hover:after:translate-y-[4px] hover:after:translate-x-[4px]
           before:content-[''] before:block before:w-[100%] before:h-[100%] before:absolute before:bg-[--green] before:opacity-20 before:z-[3] before:rounded-md hover:before:hidden
           
           after:content-[''] after:block after:w-[100%] after:h-[100%] after:absolute  after:border-2 after:border-[--green] after:top-[14px] after:z-[-1] after:rounded-md after:left-[14px] relative"
@@ -64,7 +64,7 @@ function About() {
             <img
               src={Img}
               alt="2x2"
-              className="w-[350px] rounded-md  hover:blur-none hover:translate-y-[-4px] hover:translate-x-[-4px] duration-200 ease-out "
+              className="w-[300px] rounded-md  hover:blur-none hover:translate-y-[-4px] hover:translate-x-[-4px] duration-200 ease-out"
             />
           </div>
         </div>

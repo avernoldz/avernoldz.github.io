@@ -3,7 +3,7 @@ import React from "react";
 function RightBar() {
   return (
     <section
-      className="font-mono text-white/75 fixed bottom-0 left-[6rem] origin-bottom-left rotate-[270deg] animate-fade "
+      className="font-mono text-white/75 fixed bottom-0 xl:left-[6rem] origin-bottom-left rotate-[270deg] animate-fade lg:left-[3rem] md:left-[4rem] hidden xl:block lg:block md:block"
       style={{ animationDuration: "2500ms" }}
     >
       <div>

@@ -11,14 +11,14 @@ function Work() {
   return (
     <section className=" m-auto max-w-[750px] py-[6rem] " id="experience">
       <Title number="02." info="Where I've worked" />
-      <div className="grid grid-cols-[2fr,6fr] gap-10">
-        <div className="text-white/50 font-mono text-sm">
+      <div className="grid grid-cols-[2fr,6fr] gap-10 max-[767px]:grid-cols-none">
+        <div className="text-white/50 font-mono text-sm max-[767px]:flex m-auto">
           <Tabs
             tabdesc={"Freelancing"}
             toggle={() => toggleTab(1)}
             className={
               setToggle === 1
-                ? "text-[--green] bg-black/20 border-l-2 !border-[--green]"
+                ? "text-[--green] bg-black/20 border-l-2 max-[767px]:border-b-2 max-[767px]:border-l-0 !border-[--green]"
                 : "text-white/50 bg-none"
             }
           />
@@ -27,7 +27,7 @@ function Work() {
             toggle={() => toggleTab(2)}
             className={
               setToggle === 2
-                ? "text-[--green] bg-black/20 border-l-2 !border-[--green]"
+                ? "text-[--green] bg-black/20 border-l-2 max-[767px]:border-b-2 !max-[767px]:border-l-0 !border-[--green]"
                 : "text-white/50 bg-none"
             }
           />
@@ -36,7 +36,7 @@ function Work() {
             toggle={() => toggleTab(3)}
             className={
               setToggle === 3
-                ? "text-[--green] bg-black/20 border-l-2 !border-[--green]"
+                ? "text-[--green] bg-black/20 border-l-2 max-[767px]:border-b-2 max-[767px]:border-l-0 !border-[--green]"
                 : "text-white/50 bg-none"
             }
           />
@@ -48,7 +48,7 @@ function Work() {
               Web Developing <span className="text-[--green]">@ Home</span>
             </div>
             <p className="text-white/50 mb-3">June 2023 - Present</p>
-            <div className="font-inter text-white/50 text-[15px]">
+            <div className="font-inter text-white/50 text-[15px] max-[767px]:text-[14px]">
               <ul>
                 {Description.map((des, i) => (
                   <>
@@ -58,17 +58,17 @@ function Work() {
                   </>
                 ))}
               </ul>
-              <ul className="font-mono">
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
+              <ul className="font-mono flex gap-2 flex-row flex-wrap">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   HTML5
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ml-2">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   CSS3
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]  ml-2">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ">
                   WordPress
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ml-2">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   cPanel
                 </li>
               </ul>
@@ -102,23 +102,23 @@ function Work() {
                   </>
                 ))}
               </ul>
-              <ul className="font-mono">
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
+              <ul className="font-mono flex gap-2 flex-row flex-wrap">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   Java
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ml-2">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   Spring MVC
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]  ml-2">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ">
                   JavaScript
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ml-2">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   ReactJS
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ml-2">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   HTML5
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] mt-2">
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   CSS3
                 </li>
               </ul>
@@ -152,17 +152,17 @@ function Work() {
                   </>
                 ))}
               </ul>
-              <ul className="font-mono">
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
+              <ul className="font-mono flex gap-2 flex-row flex-wrap">
+                <li className=" bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   Photoshop
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ml-2">
+                <li className=" bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ">
                   Illustrator
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]  ml-2">
+                <li className=" bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]  ">
                   WordPress
                 </li>
-                <li className="inline-block bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ml-2">
+                <li className=" bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ">
                   Digital Arts
                 </li>
               </ul>

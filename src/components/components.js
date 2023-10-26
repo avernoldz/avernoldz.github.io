@@ -3,12 +3,14 @@ export const Title = (props) => {
   return (
     <div className="flex items-center mb-[50px]">
       <div>
-        <h2 className="font-semibold text-3xl text-white/90 after:content-[''] after:w-[10em]  ">
-          <span className="text-[--green] font-mono text-xl">{number}</span>{" "}
+        <h2 className="font-semibold text-3xl text-white/90 max-[767px]:text-xl">
+          <span className="text-[--green] font-mono text-xl max-[767px]:text-lg">
+            {number}
+          </span>{" "}
           {info}
         </h2>
       </div>
-      <div className="w-[300px] h-[1px] bg-white/50 ml-[50px]"></div>
+      <div className="w-[300px] h-[1px] bg-white/50 ml-[50px] max-[767px]:hidden md:hidden"></div>
     </div>
   );
 };
@@ -37,7 +39,7 @@ export const Tabs = (props) => {
 
   return (
     <div
-      className={`p-3 cursor-pointer hover:text-[--green] hover:bg-black/20 duration-150 delay-75 border-l-2 border-white/50 ${className}`}
+      className={`p-3 cursor-pointer hover:text-[--green] hover:bg-black/20 duration-150 delay-75 border-l-2 max-[767px]:border-l-0 max-[767px]:border-b-2 border-white/50 ${className}`}
       onClick={props.toggle}
     >
       {tabdesc}

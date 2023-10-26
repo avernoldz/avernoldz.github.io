@@ -7,10 +7,10 @@ function Other() {
         Other Noteworthy Projects
       </h2>
       <div className="mt-12 max-w-[650px] m-auto">
-        <ul className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4">
+        <ul className="grid xl:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4 md:grid-cols-[repeat(auto-fill,minmax(250px,1fr))]">
           <li className="bg-[#121212] py-8 px-6 rounded-md min-h-[300px] hover:translate-y-[-5px] delay-75 duration-150 drop-shadow-lg ">
             <div className="flex flex-col">
-              <div className="min-h-[250px]">
+              <div className="xl:min-h-[265px] md:min-h-[285px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -39,7 +39,7 @@ function Other() {
                 </p>
               </div>
               <div className="mt-3">
-                <ul className="flex gap-3 font-mono text-sm text-[--green]">
+                <ul className="flex gap-3 font-mono text-sm text-[--green] flex-wrap">
                   <li>Java</li>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -74,7 +74,7 @@ function Other() {
                 </p>
               </div>
               <div className="mt-3">
-                <ul className="flex gap-3 font-mono text-sm text-[--green]">
+                <ul className="flex gap-3 font-mono text-sm text-[--green] flex-wrap">
                   <li>PHP</li>
                   <li>HTML</li>
                   <li>CSS</li>

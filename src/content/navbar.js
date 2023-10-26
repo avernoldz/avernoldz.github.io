@@ -1,10 +1,10 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 
-function NavBar() {
+function NavBar(props) {
   return (
-    <header className="w-[100%] bg-zinc-900">
-      <nav className="flex justify-between h-[10vh] items-center m-auto pl-20 pr-20 ">
+    <header className={`w-[100%] bg-zinc-900 ${props.className}`}>
+      <nav className="flex justify-between h-[10vh] items-center m-auto xl:px-20 lg:px-[1.5rem] md:px-[3rem]">
         <div>
           <img
             style={{ animationDuration: "100ms" }}
