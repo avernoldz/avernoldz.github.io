@@ -16,7 +16,7 @@ function NavMob(props) {
               alt="logo"
             />
           </div>
-          <div className="flex justify-between hidden">
+          <div className="justify-between hidden">
             <ul className="font-mono text-white/75 flex items-center gap-7 justify-between">
               <li
                 className="animate-fadeDown "

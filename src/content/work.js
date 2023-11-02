@@ -109,6 +109,9 @@ function Work() {
                 <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   Spring MVC
                 </li>
+                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
+                  CSS3
+                </li>
                 <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green] ">
                   JavaScript
                 </li>
@@ -117,9 +120,6 @@ function Work() {
                 </li>
                 <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
                   HTML5
-                </li>
-                <li className="bg-black/20 p-4 pt-1 pb-1 rounded-2xl text-[--green]">
-                  CSS3
                 </li>
               </ul>
             </div>
