@@ -39,7 +39,7 @@ export const Tabs = (props) => {
 
   return (
     <div
-      className={`p-3 cursor-pointer hover:text-[--green] hover:bg-black/20 duration-150 delay-75 border-l-2 max-[767px]:border-l-0 max-[767px]:border-b-2 border-white/50 ${className}`}
+      className={`p-3 cursor-pointer hover:text-[--green] max-[767px]:min-w-[150px]  hover:bg-black/20 duration-150 delay-75 border-l-2 max-[767px]:border-l-0 max-[767px]:border-b-2 border-white/50 ${className}`}
       onClick={props.toggle}
     >
       {tabdesc}

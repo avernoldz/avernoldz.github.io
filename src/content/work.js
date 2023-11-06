@@ -12,7 +12,7 @@ function Work() {
     <section className=" m-auto max-w-[750px] py-[6rem] " id="experience">
       <Title number="02." info="Where I've worked" />
       <div className="grid grid-cols-[2fr,6fr] gap-10 max-[767px]:grid-cols-none">
-        <div className="text-white/50 font-mono text-sm max-[767px]:flex m-auto">
+        <div className="text-white/50 font-mono text-sm max-[767px]:flex max-[767px]:m-auto overflow-x-auto max-[767px]:max-w-[100%]">
           <Tabs
             tabdesc={"Freelancing"}
             toggle={() => toggleTab(1)}
