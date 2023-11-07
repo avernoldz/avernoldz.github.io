@@ -10,7 +10,7 @@ export const Title = (props) => {
           {info}
         </h2>
       </div>
-      <div className="w-[300px] h-[1px] bg-white/50 ml-[50px] max-[767px]:hidden md:hidden"></div>
+      <div className="w-[300px] h-[1px] bg-white/50 ml-[50px] max-[767px]:hidden "></div>
     </div>
   );
 };
@@ -44,5 +44,26 @@ export const Tabs = (props) => {
     >
       {tabdesc}
     </div>
+  );
+};
+
+export const ImgRow = (props) => {
+  const { img, label, desc, className } = props;
+  return (
+    <>
+      <div className="rounded-t-xl overflow-hidden cursor-pointer ">
+        <img
+          src={img}
+          alt="vexel"
+          className={`${className} hover:scale-110 delay-75 duration-200`}
+        />
+      </div>
+      <div className=" bg-zinc-800 p-10 rounded-b-xl ">
+        <h1 className="text-white/90 font-semibold text-xl truncate">
+          {label}
+        </h1>
+        <h2>{desc}</h2>
+      </div>
+    </>
   );
 };

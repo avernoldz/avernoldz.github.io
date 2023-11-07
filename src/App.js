@@ -9,6 +9,7 @@ import Project from "./content/project";
 import Other from "./content/other";
 import Contact from "./content/contact";
 import Footer from "./content/footer";
+import Art from "./content/art";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -37,6 +38,9 @@ function App() {
           <Project />
           <div data-aos="slide-up">
             <Other />
+          </div>
+          <div data-aos="slide-up">
+            <Art />
           </div>
           <div data-aos="slide-up">
             <Contact />
