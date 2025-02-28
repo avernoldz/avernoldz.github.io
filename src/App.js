@@ -35,7 +35,9 @@ function App() {
           <div data-aos="slide-up">
             <Work />
           </div>
-          <Project />
+          <div data-aos="slide-up">
+            <Project />
+          </div>
           <div data-aos="slide-up">
             <Other />
           </div>

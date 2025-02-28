@@ -6,6 +6,11 @@ import Img5 from "../assets/ga4.jpg";
 import Img6 from "../assets/ga5.jpg";
 import Img7 from "../assets/ga6.jpg";
 import Img8 from "../assets/ga7.jpg";
+import Img9 from "../assets/ga8.jpg";
+import Img10 from "../assets/ga9.jpg";
+import Img11 from "../assets/ga10.jpg";
+import Img12 from "../assets/ga11.png";
+import Img13 from "../assets/ga12.png";
 import Img4 from "../assets/vexel.jpg";
 import { ImgRow } from "../components/components";
 
@@ -90,15 +95,55 @@ function Art() {
               href="https://drive.google.com/drive/folders/1H_lNqDwK3t7yesVA8wGfmoC2mVWDyV1Z?usp=sharing"
               target="_blank"
             >
-              <ImgRow img={Img7} label="Kings" desc="Jersey Design" />
+              <ImgRow img={Img7} label="Poster" desc="Marketing Design" />
             </a>
           </div>
-          <div className="col-span-2 max-[767px]:col-auto max-[767px]:row-auto">
+          <div className="max-[767px]:col-auto max-[767px]:row-auto">
             <a
               href="https://drive.google.com/drive/folders/1H_lNqDwK3t7yesVA8wGfmoC2mVWDyV1Z?usp=sharing"
               target="_blank"
             >
-              <ImgRow img={Img8} label="Arci Clarice" desc="Tarpaulin design" />
+              <ImgRow img={Img8} label="Infographics" desc="Infographics" />
+            </a>
+          </div>
+          <div className="max-[767px]:col-auto max-[767px]:row-auto">
+            <a
+              href="https://drive.google.com/drive/folders/1H_lNqDwK3t7yesVA8wGfmoC2mVWDyV1Z?usp=sharing"
+              target="_blank"
+            >
+              <ImgRow img={Img9} label="Poster" desc="Marketing Poster" />
+            </a>
+          </div>
+          <div className="max-[767px]:col-auto max-[767px]:row-auto">
+            <a
+              href="https://drive.google.com/drive/folders/1H_lNqDwK3t7yesVA8wGfmoC2mVWDyV1Z?usp=sharing"
+              target="_blank"
+            >
+              <ImgRow img={Img10} label="Poster" desc="Brutalism Poster" />
+            </a>
+          </div>
+          <div className="max-[767px]:col-auto max-[767px]:row-auto">
+            <a
+              href="https://drive.google.com/drive/folders/1H_lNqDwK3t7yesVA8wGfmoC2mVWDyV1Z?usp=sharing"
+              target="_blank"
+            >
+              <ImgRow img={Img11} label="Poster" desc="Poster" />
+            </a>
+          </div>
+          <div className="max-[767px]:col-auto max-[767px]:row-auto">
+            <a
+              href="https://drive.google.com/drive/folders/1H_lNqDwK3t7yesVA8wGfmoC2mVWDyV1Z?usp=sharing"
+              target="_blank"
+            >
+              <ImgRow img={Img12} label="Food Poster" desc="Poster" />
+            </a>
+          </div>
+          <div className="max-[767px]:col-auto max-[767px]:row-auto">
+            <a
+              href="https://drive.google.com/drive/folders/1H_lNqDwK3t7yesVA8wGfmoC2mVWDyV1Z?usp=sharing"
+              target="_blank"
+            >
+              <ImgRow img={Img13} label="Fashion Poster" desc="Poster" />
             </a>
           </div>
         </div>
