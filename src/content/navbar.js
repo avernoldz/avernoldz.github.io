@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 
 function NavBar(props) {
   return (
-    <header className={`w-[100%] bg-zinc-900 ${props.className}`}>
+    <header className={`w-[100%] bg-[--navy] ${props.className}`}>
       <nav className="flex justify-between h-[10vh] items-center m-auto xl:px-20 lg:px-[1.5rem] md:px-[3rem]">
         <div>
           <img
@@ -14,7 +14,7 @@ function NavBar(props) {
           />
         </div>
         <div className="flex justify-between ">
-          <ul className="font-mono text-white/75 flex items-center gap-7 justify-between">
+          <ul className="font-mono text-[--light-slate] flex items-center gap-7 justify-between">
             <li
               className="animate-fadeDown "
               style={{ animationDuration: "200ms" }}
@@ -67,7 +67,7 @@ function NavBar(props) {
             <a
               href="Avernold Emocling.pdf"
               download="Avernold Emocling.pdf"
-              className="transition ease-in-out delay-100 duration-400 hover:shadow-[4px_4px_0_0px] hover:shadow-[--green] text-[--green] p-2 border-[1px] rounded font-mono bg-zinc-900 border-[--green] ml-6 pl-4 pr-4"
+              className="transition ease-in-out delay-100 duration-400 hover:shadow-[4px_4px_0_0px] hover:shadow-[--green] text-[--green] p-2 border-[1px] rounded font-mono bg-[--navy] border-[--green] ml-6 pl-4 pr-4"
             >
               Resume
             </a>

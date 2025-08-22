@@ -6,7 +6,7 @@ function NavMob(props) {
 
   return (
     <>
-      <header className={`w-[100%] bg-zinc-900 ${props.className}`}>
+      <header className={`w-[100%] bg-[--navy] ${props.className}`}>
         <nav className="flex justify-between h-[10vh] items-center m-auto p-7">
           <div>
             <img

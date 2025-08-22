@@ -28,10 +28,17 @@ export const WorkDescription = (props) => {
   const { desc } = props;
 
   return (
-    <li className="mb-2 before:content-['▹'] before:inline-block before:mr-2 before:text-[--green]">
+    <li className="mb-2 flex flew-wrap gap-2">
+      <span className="text-[--green]">▹</span>
       {desc}
     </li>
   );
+  // return (
+  //   <li className="mb-2 before:content-['▹'] before:inline-block before:mr-2 before:text-[--green]">
+  //     <span className="text-[--green]">▹</span>
+  //     {desc}
+  //   </li>
+  // );
 };
 
 export const Tabs = (props) => {
@@ -58,7 +65,7 @@ export const ImgRow = (props) => {
           className={`${className} hover:scale-110 delay-75 duration-200`}
         />
       </div>
-      <div className=" bg-zinc-800 p-10 rounded-b-xl ">
+      <div className=" bg-[--light-navy] p-10 rounded-b-xl ">
         <h1 className="text-white/90 font-semibold text-xl truncate">
           {label}
         </h1>

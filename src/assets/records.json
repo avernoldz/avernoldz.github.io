@@ -1,88 +1,109 @@
-[
-  {
-    "JSD": [
-      {
-        "id": 1,
-        "desc": "Attending developer meetings"
-      },
-      {
-        "id": 2,
-        "desc": "Participating in code reviews and quality assurance activities"
-      },
-      {
-        "id": 3,
-        "desc": "Develop web page for a backoffice website"
-      },
-      {
-        "id": 4,
-        "desc": "Continously improving coding skills by internal trainings"
-      },
-      {
-        "id": 5,
-        "desc": "Self-paced online training"
-      }
-    ],
-
-    "GA": [
-      {
-        "id": 1,
-        "desc": "Study design briefs and determine requirements "
-      },
-      {
-        "id": 2,
-        "desc": "Logo, Web Design, T-Shirt, Mug Designs, Birthday Invitation, Wedding Invitation, Posters, Brochures and other related graphics design"
-      },
-      {
-        "id": 3,
-        "desc": "Develop illustrations, logos and other designs using software or by hand"
-      },
-      {
-        "id": 4,
-        "desc": "Cleaning and maintaining printer"
-      },
-      {
-        "id": 5,
-        "desc": "Test graphics across various media"
-      },
-      {
-        "id": 6,
-        "desc": "Ensure final graphics and layouts are visually appealing and on-brand"
-      },
-      {
-        "id": 7,
-        "desc": "Printing tarpaulins, stickers, t-shirt, mug, documents, large formats etc."
-      }
-    ],
-
-    "FREE": [
-      {
-        "id": 1,
-        "desc": "Restore latest website to the old website "
-      },
-      {
-        "id": 2,
-        "desc": "Archive the latest website and create a new one"
-      },
-      {
-        "id": 3,
-        "desc": "Develop new pages for the website that the client designed"
-      },
-      {
-        "id": 4,
-        "desc": "Directing or performing website updates"
-      },
-      {
-        "id": 5,
-        "desc": "Back up files from Web sites to google drive for recovery"
-      },
-      {
-        "id": 6,
-        "desc": "Create detailed instructions to upload/remove image for the client"
-      },
-      {
-        "id": 7,
-        "desc": "Install SSL certificate in Wordpress and cPanel"
-      }
-    ]
-  }
-]
+{
+  "MCP": [
+    {
+      "id": 1,
+      "desc": "Led a team of developers in delivering high-quality web applications, ensuring efficient task delegation based on team members' strengths and experience levels"
+    },
+    {
+      "id": 2,
+      "desc": "Set up and maintained development environments, streamlining workflows and minimizing technical roadblocks"
+    },
+    {
+      "id": 3,
+      "desc": "Oversaw project timelines, conducted code reviews, and enforced coding standards to maintain code quality and project consistency"
+    },
+    {
+      "id": 4,
+      "desc": "Handle complex tasks that require advanced skills especially those requiring senior-level proficiency"
+    },
+    {
+      "id": 5,
+      "desc": "Provide mentorship and guidance to junior developers, supporting their growth and skill development"
+    },
+    {
+      "id": 6,
+      "desc": "Upload and deploy files from the working area to the actual server, ensuring seamless integration and functionality"
+    },
+    {
+      "id": 7,
+      "desc": "Perform code reviews to ensure code readability, quality, and adherence to best practices, and refactor code in the codebase when necessary"
+    }
+  ],
+  "FREE": [
+    {
+      "id": 1,
+      "title": "Website Restoration",
+      "desc": "Restore a previous version of your website or revert to an older layout when needed."
+    },
+    {
+      "id": 2,
+      "title": "Website Archiving & Relaunch",
+      "desc": "Archive your current site and build a new one from scratch, tailored to your updated needs or branding."
+    },
+    {
+      "id": 3,
+      "title": "Custom Page Development",
+      "desc": "Develop new web pages based on your own designs or specifications."
+    },
+    {
+      "id": 4,
+      "title": "Ongoing Website Updates",
+      "desc": "Perform or manage regular updates to your website's content, features, or layout."
+    },
+    {
+      "id": 5,
+      "title": "Cloud Backups",
+      "desc": "Securely back up your website files to Google Drive for peace of mind and quick recovery."
+    },
+    {
+      "id": 6,
+      "title": "Client-Friendly Instructions",
+      "desc": "Provide easy-to-follow guides on how to upload, update, or remove images and content yourself."
+    },
+    {
+      "id": 7,
+      "title": "SSL Installation",
+      "desc": "Install and configure SSL certificates via WordPress and cPanel to secure your website."
+    }
+  ],
+  "JSD": [
+    {
+      "id": 1,
+      "desc": "Completed intensive bootcamp training in Java, Spring MVC, and ReactJS, establishing a strong foundation in full-stack web development "
+    },
+    {
+      "id": 2,
+      "desc": "Built and enhanced web applications using ReactJS, Material UI, and Ant Design, focusing on responsive design and user experience"
+    },
+    {
+      "id": 3,
+      "desc": "Collaborated with development teams on feature improvements, conducted code reviews, and contributed to scalable front-end solutions "
+    },
+    {
+      "id": 4,
+      "desc": "Pursued ongoing self-paced training in modern web technologies to continuously expand and update technical skills"
+    }
+  ],
+  "GA": [
+    {
+      "id": 1,
+      "desc": "Study design briefs and determine requirements "
+    },
+    {
+      "id": 2,
+      "desc": "Designed various graphics including logos, t-shirts, invitations, and posters"
+    },
+    {
+      "id": 3,
+      "desc": "Collaborated with teams to ensure designs meet client specifications and media requirements"
+    },
+    {
+      "id": 4,
+      "desc": "Conduct comprehensive testing of graphics on multiple media formats to ensure consistent quality and functionality"
+    },
+    {
+      "id": 5,
+      "desc": "Print services for a variety of items such as tarpaulins, stickers, t-shirts, mugs, documents, and large formats. "
+    }
+  ]
+}

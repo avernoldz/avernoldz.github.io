@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Jelexie Human Resources Information System",
+    "description": "A comprehensive Human Resource Information System (HRIS) built with <span class='text-[--green]'>CakePHP</span>, <span class='text-[--green]'>AngularJS</span>, and <span class='text-[--green]'>MySQL</span>, featuring <span class='text-[--green]'>daily time tracking</span>, <span class='text-[--green]'>payroll automation</span>, and secure <span class='text-[--green]'>QR code</span> and <span class='text-[--green]'>fingerprint-based attendance logging</span>. Designed with ease of use in mind, it <span class='text-[--green]'>simplifies HR operations</span> for both employees and administrators—boosting <span class='text-[--green]'>accuracy</span>, <span class='text-[--green]'>transparency</span>, and <span class='text-[--green]'>productivity</span> across the organization.",
+    "tech": ["CakePHP", "AngularJs", "MySQL", "HTML", "CSS", "Bootstrap"],
+    "image": "project5.jpg",
+    "link": "https://jelexiehris.mycreativepanda.ph",
+    "layout": "left"
+  },
+  {
+    "title": "Bislig Electronic Barangay System",
+    "description": "The <span class='text-[--green]'>Electronic Barangay System (EBS)</span> is a <span class='text-[--green]'>community-focused</span> <span class='text-[--green]'>Disaster Risk Reduction and Management (DRRM)</span> platform built for <span class='text-[--green]'>barangay-level</span> use. It empowers local officials to <span class='text-[--green]'>track disasters in real time</span>, <span class='text-[--green]'>monitor evacuees</span>, <span class='text-[--green]'>manage relief distribution</span>, and coordinate <span class='text-[--green]'>emergency responses</span> more efficiently—ensuring faster, more organized support when it matters most.",
+    "tech": ["CakePHP", "AngularJs", "MySQL", "HTML", "CSS", "Bootstrap"],
+    "image": "project7.jpg",
+    "link": "https://ebisbislig.mycreativepanda.ph/login",
+    "layout": "right"
+  },
+  {
+    "title": "MakinaWorks",
+    "description": "A one-page landing site built for <span class='text-[--green]'>Makina Works</span>, a <span class='text-[--green]'>BPO CAD & Engineering services provider</span>. Designed with <span class='text-[--green]'>Framer</span> and developed in <span class='text-[--green]'>WordPress</span>, it features a <span class='text-[--green]'>clean</span>, <span class='text-[--green]'>responsive</span>, and <span class='text-[--green]'>conversion-focused</span> layout. Emphasizing <span class='text-[--green]'>clarity</span>, <span class='text-[--green]'>brand professionalism</span>, and <span class='text-[--green]'>calls to action</span>, the site clearly presents technical services through a <span class='text-[--green]'>compelling digital narrative</span>, enhancing <span class='text-[--green]'>online presence</span> and boosting <span class='text-[--green]'>lead generation</span>.",
+    "tech": ["WordPress", "YooTheme", "HTML", "cPanel", "Canva"],
+    "image": "project8.jpg",
+    "link": "https://makina.works",
+    "layout": "left"
+  }
+]

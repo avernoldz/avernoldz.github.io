@@ -10,47 +10,55 @@ function About() {
         <div>
           <div className="text-white/50 ">
             <p className="mb-[20px]">
-              Hi! My name is <span className="text-[--green]">Avernold</span>{" "}
-              and I love designing and programming very much. I reasoned, why
-              not combine these two? I can use my skills most effectively as a
-              web developer. Playing with HTML & CSS and creating some UI for
-              the web are two things I really enjoy doing!
+              Hello, I'm{" "}
+              <span className="text-[--green]">
+                Avernold – Full-Stack Web Developer & UI Designer
+              </span>{" "}
+              I specialize in crafting intuitive, user-centered web experiences
+              that blend clean design with solid functionality. With a
+              background in both software development and visual design, I bring
+              a well-rounded skill set that bridges aesthetics and performance,
+              whether it's building scalable booking systems, HR platforms, or
+              high-converting landing pages.
             </p>
             <p className="mb-[20px]">
-              I've had the privilege working at{" "}
-              <a
-                href="https://atos.net"
-                target="_blank"
-                className="text-[--green] font-medium hover:opacity-70"
-              >
-                European number one in cybersecurity
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://odrtechinc.com"
-                target="_blank"
-                className="text-[--green] font-medium hover:opacity-70 "
-              >
-                a startup web base solutions.{" "}
-              </a>
-              Although I still lack experience, I can confidently say that I
-              have the necessary skills. While I'm still looking for work, my
-              current priorities are growing my network in the freelancing
-              industry and learning more about frameworks like ReactJS,
-              Bootstrap, Tailwind CSS and jQuery.
+              Over the years, I’ve worked with tech startups, BPO service
+              providers, and agencies leading projects, mentoring teams, and
+              delivering production-ready solutions across a wide range of
+              stacks like{" "}
+              <span className="text-[--green]">
+                React.js, Laravel, CakePHP, and WordPress
+              </span>
+              .
+            </p>
+            <p className="mb-[20px]">
+              Currently open for{" "}
+              <span className="text-[--green]">
+                freelance or remote opportunities
+              </span>
+              , I’m passionate about building efficient, modern web applications
+              and growing my network within the development community. Whether
+              you're a business in need of a digital solution or a team looking
+              for a versatile developer and I’d love to connect with you.
             </p>
             <p className="mb-[20px]">
               Here are the technologies I've been using:
             </p>
             <ul className="grid grid-cols-2 font-mono text-sm max-[767px]:text-xs">
-              <Tech techno="JavaScript" />
-              <Tech techno="React" />
               <Tech techno="HTML5" />
               <Tech techno="CSS3" />
-              <Tech techno="WordPress" />
+              <Tech techno="JavaScript" />
+              <Tech techno="PHP" />
+              <Tech techno="ReactJs" />
+              <Tech techno="Laravel" />
+              <Tech techno="VueJs" />
+              <Tech techno="CakePHP" />
+              <Tech techno="AngularJS" />
+              <Tech techno="Github" />
               <Tech techno="Tailwind" />
               <Tech techno="Bootstrap" />
-              <Tech techno="Github" />
+              <Tech techno="MySQL" />
+              <Tech techno="Microsoft SQL Server" />
             </ul>
           </div>
         </div>

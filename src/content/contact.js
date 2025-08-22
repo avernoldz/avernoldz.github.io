@@ -20,7 +20,7 @@ function Contact() {
         <div className="hover:-translate-y-1 hover:-translate-x-1  transition ease-in-out delay-100 duration-150 mt-20 xl:max-w-[30%] m-auto lg:max-w-[50%] md:max-w-[50%] w-[50%] max-[767px]:w-[100%]">
           <a
             href="mailto:averemocling@gmail.com"
-            className="transition ease-in-out delay-100 duration-400 hover:shadow-[4px_4px_0_0px] hover:shadow-[--green] text-[--green] py-4 px-8 border-[1px] rounded font-mono bg-zinc-900 border-[--green] text-lg "
+            className="transition ease-in-out delay-100 duration-400 hover:shadow-[4px_4px_0_0px] hover:shadow-[--green] text-[--green] py-4 px-8 border-[1px] rounded font-mono bg-[--navy] border-[--green] text-lg "
           >
             Say Hello!
           </a>
